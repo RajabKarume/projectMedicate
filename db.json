@@ -1,0 +1,140 @@
+{
+    "meds": [
+        {
+        "id": 1,
+        "name": "Amlodipine 10mg",
+        "brand": "Comsos",
+        "image":"https://hpa.chebupharma.com/web/image/product.template/17297/image", 
+        "description": "Amlodipine is a calcium channel blocker. It works by affecting the movement of calcium into the cells of the heart and blood vessels. This relaxes the blood vessels and lowers blood pressure, and increases the supply of blood and oxygen to the heart while reducing its workload.",
+        "side-effects": [
+            "swelling of the hands, feet, ankles, or lower legs",
+            "headache",
+            "upset stomach",
+            "nausea",
+            "stomach pain",
+            "dizziness or lightheadedness",
+            "drowsiness",
+            "excessive tiredness",
+            "flushing"
+        ]
+        },
+        {
+            "id": 2,
+            "name": "Atenelol 5omg",
+            "brand": "Comsos",
+            "image":"https://www.trustedsolutionskenya.com/wp-content/uploads/2021/04/IMG-20201104-WA0024.jpg", 
+            "description": "This medicine is a beta-blocker. It works by affecting the response to nerve impulses in certain parts of the body, like the heart. As a result, the heart beats slower and decreases the blood pressure. When the blood pressure is lowered, the amount of blood and oxygen is increased to the heart .",
+            "side-effects": [
+                "Feeling sleepy, tired or dizzy",
+                "Blurred vision",
+                "cold hands or feet",
+                "difficult or labored breathing",
+                "sweating",
+                "tightness in chest"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Sinemet 10/100",
+            "brand": "MSD",
+            "image":"https://www.pharmarket.ng/wp-content/uploads/2021/11/PicsArt_11-25-05.10.28-scaled.jpg", 
+            "description": "Carbidopa and levodopa combination is used to treat Parkinson's disease, sometimes called shaking palsy or paralysis agitans. Parkinson's disease is a disorder of the central nervous system (brain and spinal cord).",
+            "side-effects": [
+                "Dizziness", 
+                "lightheadedness", 
+                "nausea", 
+                "vomiting", 
+                "loss of appetite", 
+                "trouble sleeping", 
+                "unusual dreams", 
+                "headache"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Pregabalin",
+            "brand": "Comsos",
+            "image":"https://cosmos-pharm.com/img/Pergalin%20Tablets.png", 
+            "description": "",
+            "side-effects": [
+                "tiredness",
+                "dizziness",
+                "headache",
+                "dry mouth",
+                "nausea",
+                "vomiting",
+                "constipation",
+                "gas",
+                "bloating",
+                "muscle twitching",
+                "weakness",
+                "difficulty remembering or forgetfulness",
+                "back pain"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Myozox",
+            "brand": "Innocia",
+            "image":"https://www.mykentons.com/slide/975/550x550", 
+            "description": "Myospaz Tablet is a combination of two medicines: Paracetamol and Chlorzoxazone. This medication helps in relieving muscle pain. Chlorzoxazone is a muscle relaxant which works by acting on the central nervous system. Paracetamol works by lowering the chemical substance (prostaglandins) in the body that causes pain.",
+            "side-effects": [
+                "Vomiting",
+                "Indigestion",
+                "Stomach pain",
+                "Drowsiness",
+                "Dizziness",
+                "Headache",
+                "Nervousness",
+                "Body pain",
+                "Weakness"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Benzhexol",
+            "brand": "Comsos",
+            "image":"https://hpa.chebupharma.com/web/image/product.template/17680/image", 
+            "description": "Trihexyphenidyl is used along with other medications to treat the symptoms of Parkinson's disease (PD; a disorder of the nervous system that causes difficulties with movement, muscle control, and balance) and to control extrapyramidal symptoms (tremor, slurred speech) caused by certain medications. Trihexyphenidyl is in a class of medications called antimuscarinics. It works by relaxing muscles and nerve impulses that control the function of muscles",
+            "side-effects": [
+                "dizziness or blurred vision",
+                "dry mouth",
+                "upset stomach",
+                "vomiting",
+                "constipation",
+                "headache",
+                "difficulty urinating"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Ascard-75mg",
+            "brand": "ATCO",
+            "image":"data:image/jpeg;base64,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", 
+            "description": "Ascard contains aspirin which is a salicylate and an NSAID (Non-steroidal anti-inflammatory drug). It interferes with the blood clotting system; preventing unwanted clots, and reduces pain and fever in the body.",
+            "side-effects": [
+                "Stomach upset",
+                "Heartburn",
+                "Increased bleeding tendency",
+                "Gastric bleeding"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Pexola 0.25mg",
+            "brand": "Boehringer Ingelheim",
+            "image":"https://dmrckenya.co.ke/wp-content/uploads/2020/04/pexola-0.25mg.jpg", 
+            "description": "Pexola 0.25mg tablets contains Pramipexole 0.25mg, which treats Parkinson’s disease and restless leg syndrome. It works by increasing the action of dopamine, a chemical messenger that controls movement in the brain.",
+            "side-effects": [
+                "abnormal dreams",
+                "Amnesia",
+                "Behavioral symptoms of impulse control disorders and compulsions, such as overeating, compulsive shopping",
+                "Hypersexuality, and pathological gambling",
+                "Heart failure",
+                "Confusion",
+                "Constipation"
+            ]
+        }
+    ]
+ 
+}
