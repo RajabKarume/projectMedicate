@@ -12,34 +12,37 @@
     <h1>Mediweb</h1>
     <p id="websiteDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nam eos earum, in, ea sunt optio quaerat rerum voluptatum sequi pariatur tenetur ipsa quos quam dolore porro error exercitationem recusandae!</p>
     <nav>
-    <span>
-      <ul>
+      <ul id="navigation">
         <li>hedex</li>
         <li>panadol</li>
       </ul>
-    </span>
     </nav>
   </header>
   <main>
     <div class="myMeds">
-      <img id="imageOfPill" alt="insertHere" src="https://media.istockphoto.com/id/610580068/vector/vector-a4-format-paper-with-shadows-on-transparent-background.webp?s=612x612&w=is&k=20&c=_Oe3IzV9pQ9T8a61butGTDWvsSW4dDrHBrN8fiseHXU="/><br>
-      <span id="pillAmount" class="remaining-meds">0 pills remaining</span> 
       <h2 id="medName">Medicine name</h2>
+      <img id="imageOfPill" alt="insertHere" src="https://media.istockphoto.com/id/610580068/vector/vector-a4-format-paper-with-shadows-on-transparent-background.webp?s=612x612&w=is&k=20&c=_Oe3IzV9pQ9T8a61butGTDWvsSW4dDrHBrN8fiseHXU="/><br>
+      <span id="pillAmount" class="remaining-meds" >20 </span> 
+      <span>pills remaining</span>
       <div class="takePill">
         <h3>Take Your Meds</h3>
-        <button id="takeOne" class="take-meds">take 1</button>
-        <button id="takeTwo" class="take-meds">take 2</button>
+        <div class="btnGroupTake">
+          <button id="takeOne" class="take-meds">take 1</button>
+          <button id="takeTwo" class="take-meds">take 2</button>
+        </div>
       </div>
       <div class="addPills">
         <h3>Refill Your Meds</h3>
         <br>
-        <button id="addOne" class="take-meds">add 1</button>
-        <button id="addFive" class="take-meds">add 5</button>
-        <button id="addTen" class="take-meds">add 10</button>
-        <button id="addFifty" class="take-meds">add 50</button>
-        <button id="addHundred" class="take-meds">add 100</button>
+        <div class="btnGroupAdd">
+          <form id="refillPills">
+            <input type="number" placeholder="Amount Refilled??" id="refillAmount" class="amount-refilled">
+            <button type="submit" class="refillBtn"> Refill Prescription</button>
+          </form>
+        </div>
       </div>
-      <p>
+      <h3>Medicine description</h3>
+      <p id="medDescription">
         Medicine description Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi assumenda odio nam incidunt fugit possimus adipisci facilis neque provident! Doloremque dolorum dolorem quaerat nobis perferendis, dolores enim exercitationem ullam ad.
       </p>
       <h3>Some side effects may include:</h3>
@@ -49,11 +52,8 @@
         <li>pain</li>
       </ul>
       <h3>Patient Reports</h3>
-      <ul id="formEffects" class="form-effects">
-        <li>add...</li>
-      </ul>
       <form id="addEffect">
-        <input type="text" placeholder="Add undocumented side effect..." id="effectInput" class="effect-input"><br>
+        <input type="text" placeholder="Add undocumented side effect..." id="effectInput" class="effect-input" min=0 ><br>
         <button type="submit" class="input-button">Add Side effect</button>
       </form>
     </div>
