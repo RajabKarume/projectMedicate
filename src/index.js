@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded",() => {
         let inputNum = document.getElementById("refillAmount").value
         counter += parseInt(inputNum);
         remainingNum.innerHTML = counter
+        Refiller.reset()
     })
     sideEffects.addEventListener("submit", (e) =>{e.preventDefault()
         let effectData = document.getElementById("effectInput").value
