@@ -1,74 +1,98 @@
-html, body {
-    height: 100%;
-    width: 100%;
-
-  }
 *{
-    margin: 0
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-
-}
-body{
-    background-color:gray;
-    text-align: center;
-    padding: 30px;
+    margin: 0;
+    padding: 0; 
 }
 header{
-    background-color: #232d3a;
-    border-radius: 80px;
-
-}
-h1{
-    font-size: 50px;
-    text-align: center;
-    
-    text-decoration-line: underline;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-.myMeds{
-    text-align: center;
-
-
+    background-color: rgb(9, 43, 3);
 }
 ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+input{
+    width: 50%;
+    background-color: #ffff;
+    color: rgb(9, 43, 3);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#imageContainer{
+    text-align: center;
+    padding-left: 35%;
+    width: 400px;
+    border-radius: 10px;
+    height: 400px;
+    
+}
+#imageOfPill{
+    width: 300px;
+    height: 320px;
+}
+h2{
+    color: rgb(9, 43, 3);
+    font-size: 30px;
+    font-style: oblique;
+}
+span{
+    color:rgb(9, 43, 3);
+    font-size: 20px;
+    text-align: left;
+}
+h1{
+    font-family: Lucida Console, Times New Roman, Arial, Lucida Handwriting;
+    font-style:italic;
+    font-size: 70px;
+    text-align: center;
+    color: aliceblue;
+
+}
+button{
+    width: 30%;
+    background-color: rgb(9, 43, 3);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.navline{
+    display:inline-block;
+    padding: 15px;
+    cursor: pointer;
+    border: 1px;
+    border-style: groove;
+    border-color: #4CAF50;
+    padding-top: 10px;
+    color: aliceblue;
+
+}
+#websiteDescription{
+    color: aliceblue;
+}
+main{
+    text-align: center;
+    background-color: aliceblue;
+}
+.takePill{
+    padding-top: 50px;
+}
+h3{
+    font-style: italic;
+    font-size: 25px;
 }
 p{
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
+    padding: 50px 300px 50px 300px ;
+    font-size: 18px;
 }
-img{
-    width: 300px;
-
+.someEffects{
+    padding: 5px 300px;
+    text-align:left;
 }
-.take-meds{
-   
-    width: 40%;
-    background-color: #4CAF50;
-    font-size: 20px;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 300px;
-    cursor: pointer;
-}
-.effect-input{
-    width: 500px;
-    height: 50px;
-   
-    text-align:start;
-
-}
-.input-button{
-    width: 40%;
-    background-color:crimson;
-    font-size:20px;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 100px;
-    cursor: pointer;
+#sideEffects{
+    list-style: square;
 }

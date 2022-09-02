@@ -15,7 +15,7 @@ function medImages(id){
         document.getElementById("imageOfPill").src = data.image;
         document.getElementById("imageOfPill").alt = data.name;
         document.getElementById("medName").innerText = data.name;
-        document.getElementById("sideEffects").innerHTML = data.sideEffects.map((sideEffects) => `<li>${sideEffects}</li>`).join("")
+        document.getElementById("sideEffects").innerHTML = data.sideEffects.map((sideEffects) => `<li class = "someEffects">${sideEffects}</li>`).join("")
         document.getElementById("medDescription").innerText = data.description;
 
     })
@@ -29,11 +29,11 @@ function medsNav(){
     fetch(myUrl)
     .then((responce) => responce.json())
     .then((data) => {
-        document.getElementById("navigation").innerHTML = data.map((meds) => `<li>${meds.name}</li>`).join("");
+        document.getElementById("navigation").innerHTML = data.map((meds) => `<li class="navline" onClick='medImages(${meds.id})'>${meds.name}</li>`).join("");
         // console.log(data)
     })
 }
-f
+
 
 document.addEventListener("DOMContentLoaded",() => {
     medImages(8)

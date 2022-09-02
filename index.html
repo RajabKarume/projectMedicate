@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <h1>Mediweb</h1>
+    <h1>MEDICATE</h1>
     <p id="websiteDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nam eos earum, in, ea sunt optio quaerat rerum voluptatum sequi pariatur tenetur ipsa quos quam dolore porro error exercitationem recusandae!</p>
     <nav>
       <ul id="navigation">
@@ -17,13 +17,15 @@
         <li>panadol</li>
       </ul>
     </nav>
-  </header>
+  </header><br>
   <main>
     <div class="myMeds">
-      <h2 id="medName">Medicine name</h2>
-      <img id="imageOfPill" alt="insertHere" src="https://media.istockphoto.com/id/610580068/vector/vector-a4-format-paper-with-shadows-on-transparent-background.webp?s=612x612&w=is&k=20&c=_Oe3IzV9pQ9T8a61butGTDWvsSW4dDrHBrN8fiseHXU="/><br>
-      <span id="pillAmount" class="remaining-meds" >20 </span> 
-      <span>pills remaining</span>
+      <div id="imageContainer">
+        <h2 id="medName">Medicine name</h2>
+        <img id="imageOfPill" alt="insertHere" src="https://media.istockphoto.com/id/610580068/vector/vector-a4-format-paper-with-shadows-on-transparent-background.webp?s=612x612&w=is&k=20&c=_Oe3IzV9pQ9T8a61butGTDWvsSW4dDrHBrN8fiseHXU="/><br>
+        <span id="pillAmount" class="remaining-meds" >20 </span> 
+        <span>pills remaining</span>
+      </div>
       <div class="takePill">
         <h3>Take Your Meds</h3>
         <div class="btnGroupTake">
@@ -36,7 +38,7 @@
         <br>
         <div class="btnGroupAdd">
           <form id="refillPills">
-            <input type="number" placeholder="Amount Refilled??" id="refillAmount" class="amount-refilled">
+            <input type="number" placeholder="Enter amount Refilled" id="refillAmount" class="amount-refilled"><br>
             <button type="submit" class="refillBtn"> Refill Prescription</button>
           </form>
         </div>

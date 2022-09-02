@@ -52,7 +52,7 @@
         },
         {
             "id": 4,
-            "name": "Pregabalin",
+            "name": "Pregabalin 75mg",
             "brand": "Comsos",
             "image":"https://cosmos-pharm.com/img/Pergalin%20Tablets.png", 
             "description": "",
@@ -92,7 +92,7 @@
         },
         {
             "id": 6,
-            "name": "Benzhexol",
+            "name": "Benzhexol 5mg",
             "brand": "Comsos",
             "image":"https://hpa.chebupharma.com/web/image/product.template/17680/image", 
             "description": "Trihexyphenidyl is used along with other medications to treat the symptoms of Parkinson's disease (PD; a disorder of the nervous system that causes difficulties with movement, muscle control, and balance) and to control extrapyramidal symptoms (tremor, slurred speech) caused by certain medications. Trihexyphenidyl is in a class of medications called antimuscarinics. It works by relaxing muscles and nerve impulses that control the function of muscles",
