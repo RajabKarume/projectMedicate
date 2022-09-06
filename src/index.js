@@ -1,4 +1,4 @@
-let myUrl = "http://localhost:3000/meds";
+let myUrl = "https://medicate-json-server.herokuapp.com/meds";
 let takeOne = document.getElementById("takeOne");
 let takeTwo = document.getElementById("takeTwo");
 let Refiller = document.getElementById("refillPills")
@@ -6,7 +6,6 @@ let sideEffects = document.getElementById("addEffect")
 
 let counter = 20
 let remainingNum = document.getElementById("pillAmount")
-
 
 function medImages(id){
     fetch (`${myUrl}/${id}`)
